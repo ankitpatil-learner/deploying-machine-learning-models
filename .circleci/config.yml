@@ -107,7 +107,7 @@ jobs:
 
 workflows:
   version: 2
-  test-all:
+  test:
     jobs:
       - test_regression_model
       - test_ml_api:
